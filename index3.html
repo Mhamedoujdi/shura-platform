@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Shura Service</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Gulzar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-content">
+            <!-- Login Button -->
+                       <!-- Hamburger Menu (Hidden on PC, visible on Mobile) -->
+                       <div class="hamburger-menu" id="hamburger-menu">
+                        <i class="fas fa-bars"></i>
+                    </div>
+            <button class="login-btn">
+                <i class="fas fa-sign-in-alt"></i><a href="index2.html">اطلب الان</a>
+            </button> 
+
+    
+            <!-- Navbar links (Always visible on PC, hidden on Mobile) -->
+            <div class="nav-links" id="nav-links">
+                <a href="index3.html">تواصل معنا</a>
+                <a href="#">المدونه</a>
+                <a href="index.html">عن شورة</a>
+                <a href="index.html">الرئيسية</a>
+            </div>
+
+            <!-- Logo -->
+            <div class="navbar-separator"></div>
+            
+            <div class="logo-container">
+                <div class="logo">منصة شورة</div>
+            </div>
+        </div>
+    </nav>
+    <script>
+        // Add event listener for the hamburger menu
+        document.getElementById('hamburger-menu').addEventListener('click', function() {
+            var navLinks = document.getElementById('nav-links');
+            navLinks.classList.toggle('show'); // Toggle the 'show' class to display/hide the links on mobile
+        });
+            </script>
+            
+
+    <!-- Scroll-to-Top Button -->
+    <button id="scrollTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+    <section class="contact-section fade-in">
+        <h2>تواصل معنا</h2>
+        <p>لديك سؤال؟ تواصل معنا عبر النموذج أدناه أو من خلال معلومات الاتصال.</p>
+        <form class="contact-form">
+            <input type="text" placeholder="الاسم" required>
+            <input type="email" placeholder="البريد الإلكتروني" required>
+            <textarea placeholder="رسالتك" required></textarea>
+            <button type="submit" class="btn">إرسال</button>
+        </form>
+    </section>
+    
+      
+    
+    
+    
+    <footer>
+        <div class="footer-ribbon">
+            <a href="https://wa.me/" class="whatsapp-btn">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="30">
+                تواصل معنا عبر الواتساب
+            </a>
+            <p>هل تفضل التواصل المباشر؟</p>
+        </div>
+    
+        <div class="footer-top">
+            <div class="app-download">
+                <h3>حمل التطبيق</h3>
+                <div class="download-links">
+                    <a href="https://apps.apple.com/your-app-link" target="_blank" class="store-btn">
+                        <img src="https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2021-01-01&kind=iossoftware" alt="Download on the App Store">
+                    </a>
+                    <a href="#" class="store-btn">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+            <div class="services">
+                <h3>خدماتنا</h3>
+                <ul>
+                    <li><a href="#">شورة للأعمال التجارية</a></li>
+                    <li><a href="#">التقاضي</a></li>
+                    <li><a href="#">تطبيق الجوال</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>تواصل معنا</h3>
+                <p>Email: <a href="mailto:cs@shooraapp.com">cs@shworapp.com</a></p>
+                <p>Phone: <a href="tel:+213-526161365">+213-###</a></p>
+                <p>الجزائر</p>
+                <div class="social-icons">
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook"></a>
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/LinkedIn_logo_initials.png" alt="LinkedIn"></a>
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>جميع الحقوق محفوظة © شورة 2024</p>
+            <a href="#">الشروط والأحكام الخاصة بالمستخدمين</a>
+        </div>
+    </footer>
+  <a href="https://wa.me/" class="whatsapp_float" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp_icon">
+</a>
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+</body>
+<style>
+body {
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;}
+
+.contact-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    margin: 80px auto;
+    max-width: 600px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: right;
+}
+
+.contact-form .btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form .btn:hover {
+    background-color: #0056b3;
+}
+
+</style>
+</html>

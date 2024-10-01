@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Shura Service</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Gulzar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-content">
+            <!-- Login Button -->
+                       <!-- Hamburger Menu (Hidden on PC, visible on Mobile) -->
+                       <div class="hamburger-menu" id="hamburger-menu">
+                        <i class="fas fa-bars"></i>
+                    </div>
+            <button class="login-btn">
+                <i class="fas fa-sign-in-alt"></i><a href="index2.html">اطلب الان</a>
+            </button> 
+
+    
+            <!-- Navbar links (Always visible on PC, hidden on Mobile) -->
+            <div class="nav-links" id="nav-links">
+                <a href="index3.html">تواصل معنا</a>
+                <a href="#">المدونه</a>
+                <a href="index.html">عن شورة</a>
+                <a href="index.html">الرئيسية</a>
+            </div>
+
+            <!-- Logo -->
+            <div class="navbar-separator"></div>
+            
+            <div class="logo-container">
+                <div class="logo">منصة شورة</div>
+            </div>
+        </div>
+    </nav>
+    
+    <script>
+// Add event listener for the hamburger menu
+document.getElementById('hamburger-menu').addEventListener('click', function() {
+    var navLinks = document.getElementById('nav-links');
+    navLinks.classList.toggle('show'); // Toggle the 'show' class to display/hide the links on mobile
+});
+    </script>
+    
+    
+
+    <!-- Scroll-to-Top Button -->
+    <button id="scrollTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- Hero Section -->
+    <header class="hero-section fade-in">
+        <div class="hero-content">
+            <h1>تحتاج محامي مرخص وبتكلفة مناسبة؟</h1>
+            <p>في خدمة شورة تقدر توصل خلال دقايق لمحامي متخصص في مشكلتك أو حاجتك القانونية بسهولة وموثوقية تامة.</p>
+            <a href="index2.html" class="btn">اطلب محامي الآن</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about-section fade-in">
+        <h2>من نحن؟</h2>
+        <p>خدمة شورة هي منصة مبتكرة تقدم حلول قانونية موثوقة وسريعة للمستخدمين في جميع أنحاء العالم العربي. نسعى لتوفير الدعم القانوني اللازم بسهولة وفعالية عبر التكنولوجيا الحديثة.</p>
+        <div class="about-image">
+            <img src=".jpg" alt="About Us">
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section fade-in">
+        <h2>مزايا خدمة شورة</h2>
+        <div class="features-container">
+            <div class="feature-box fade-in">
+                <i class="fas fa-shield-alt"></i>
+                <h3>السرية والخصوصية</h3>
+                <p>نضمن سرية جميع المعلومات والبيانات الشخصية للعميل، مع استخدام أحدث أنظمة التشفير لحمايتها.</p>
+            </div>
+            <div class="feature-box fade-in">
+                <i class="fas fa-user-tie"></i>
+                <h3>فريق متخصص</h3>
+                <p>يضم فريقنا محامين ذوي خبرة متخصصة في مختلف المجالات القانونية لضمان أفضل خدمة.</p>
+            </div>
+            <div class="feature-box fade-in">
+                <i class="fas fa-handshake"></i>
+                <h3>التواصل المستمر والدعم الفوري</h3>
+                <p>وسائل تواصل متعددة مع دعم فوري لضمان تجربة ممتازة للعملاء.</p>
+            </div>
+            <div class="feature-box fade-in">
+                <i class="fas fa-book-open"></i>
+                <h3>استشارات قانونية مبدئية </h3>
+                <p>نقدم استشارة قانونية أولية لتقييم الحالة القانونية وشرح كيفية مساعدتك.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Legal Services Section -->
+    <section class="additional-services-section fade-in">
+        <h2>خدمات قانونية إضافية</h2>
+        <div class="services-container">
+            <div class="service-item fade-in">
+                <i class="fas fa-balance-scale"></i>
+                <h3>إعداد لوائح الاستئناف</h3>
+                <p>نقوم بإعداد لوائح الاستئناف والمرافعات القانونية المتخصصة.</p>
+            </div>
+            <div class="service-item fade-in">
+                <i class="fas fa-user-shield"></i>
+                <h3>خدمات التحكيم التجاري</h3>
+                <p>نقدم خدمات التحكيم التجاري لمختلف القضايا والمعاملات.</p>
+            </div>
+            <div class="service-item fade-in">
+                <i class="fas fa-landmark"></i>
+                <h3>تسجيل العلامات التجارية</h3>
+                <p>نوفر خدمة تسجيل العلامات التجارية لضمان حماية الملكية الفكرية.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section fade-in">
+        <h2>الأسئلة الشائعة</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <h3> ما هي الخدمات القانونية التي تقدمها شركة شورة؟</h3>
+                <p>نقدم مجموعة متنوعة من الخدمات القانونية المتخصصة في مجال القضاء، بما في ذلك الاستشارات القانونية، التحكيم وحل النزاعات، وإعداد العقود، والمرافعات أمام المحاكم</p>
+            </div>
+            <div class="faq-item">
+                <h3>كيف يمكنني طلب محامي؟</h3>
+                <p>يمكنك طلب محامي بسهولة من خلال الضغط على زر "اطلب محامي الآن" في الصفحة الرئيسية وتعبئة البيانات المطلوبة</p>
+            </div>
+            <div class="faq-item">
+                <h3> ما هي تكلفة الاستشارة القانونية؟</h3>
+                <p>تختلف تكلفة الاستشارة بناءً على نوع القضية وتعقيدها. يمكننا تقديم تقدير أولي للتكلفة بعد مراجعة تفاصيل </p></div>
+            <div class="faq-item">
+                <h3>هل المعلومات التي أشاركها مع شورة سرية؟</h3>
+                <p>بالطبع، نحن نلتزم بأعلى معايير السرية والخصوصية في التعامل مع جميع المعلومات الخاصة بعملائنا. جميع المعلومات التي تقدمها لنا محفوظة بسرية تامة ولا يتم مشاركتها مع أي جهة أخرى إلا بعد موافقتك</p>
+            </div>
+
+            
+            </section>
+   
+                <!-- Testimonials Section -->
+    <section class="testimonials-section fade-in">
+        <h2>آراء العملاء</h2>
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <p> خدمة شورة كانت ممتازة وساعدتني في إيجاد الحلول القانونية بسهولة وسرعة </p>
+                <h4>- عمارة عبد الغاني -</h4>
+            </div>
+            <div class="testimonial">
+                <p>محامو شورة محترفون وقدموا لي الدعم اللازم في قضيتي بكفاءة واحترافية</p>
+                <h4>- حورية فاطمي -</h4>
+            </div>
+            <div class="testimonial">
+                <p>أنصح الجميع باستخدام منصة شورة للحصول على استشارات قانونية موثوقة</p>
+                <h4>- دريش محمد -</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Options Section -->
+    <section class="payment-section">
+        <h2>مرونة في وسائل الدفع</h2>
+        <p>توفر خيارات متعددة للدفع، مثل البطاقات الائتمانية، التحويلات البنكية، والمحافظ الرقمية، مما يلبي احتياجات
+            مختلف العملاء.</p>
+        <div class="payment-options">
+            <div class="payment-card">
+                <img src="cab.png" alt="البطاقة الذهبية">
+                <h3>البطاقة الذهبية</h3>
+            </div>
+            <div class="payment-card">
+                <img src="cv.png" alt="بطاقة فيزا">
+                <h3>بطاقة فيزا</h3>
+            </div>
+            <div class="payment-card">
+                <img src="cib.png" alt="بطاقة cib">
+                <h3>بطاقة cib</h3>
+            </div>
+        </div>
+    </section>
+
+   
+      <footer>
+        <div class="footer-ribbon">         
+           <a href="https://wa.me/0562161365" class="whatsapp-btn">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="30">
+           تواصل معنا عبر الواتساب</a> 
+           <p>هل تفضل التواصل المباشر؟</p>
+        
+        </div>
+    
+       
+       
+       
+       
+       
+        <div class="footer-top">
+            <div class="app-download">
+                <h3>حمل التطبيق</h3>
+                <div class="download-links">
+                    <a href="https://apps.apple.com/your-app-link" target="_blank" class="store-btn">
+                        <img src="https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2021-01-01&kind=iossoftware" alt="Download on the App Store">
+                    </a>
+                    <a href="#" class="store-btn">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+            <div class="services">
+                <h3>خدماتنا</h3>
+                <ul>
+                    <li><a href="#">شورة للأعمال التجارية</a></li>
+                    <li><a href="#">التقاضي</a></li>
+                    <li><a href="#">تطبيق الجوال</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>تواصل معنا</h3>
+                <p>Email: <a href="mailto:shourapp@gmail.com">shourapp@gmail.com</a></p>
+                <p>Phone: <a href="tel:+213-526161365">+213-0549829718</a></p>
+                <p>الجزائر</p>
+                <div class="social-icons">
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook"></a>
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/LinkedIn_logo_initials.png" alt="LinkedIn"></a>
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>جميع الحقوق محفوظة © شورة 2024</p>
+            <a href="#">الشروط والأحكام الخاصة بالمستخدمين</a>
+        </div>
+    </footer>
+    
+    
+      <a href="https://wa.me/your-number" class="whatsapp_float" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp_icon">
+    </a>
+    
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+</body>
+
+</html>
